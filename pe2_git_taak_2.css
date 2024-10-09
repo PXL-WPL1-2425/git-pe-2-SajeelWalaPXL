@@ -1,12 +1,26 @@
 body {
     background-color: dodgerblue;
+    margin: 0; /* Verwijder standaard margin van body */
+}
+
+header {
+    position: relative; /* Zorgt ervoor dat de nav over de video kan worden geplaatst */
+}
+
+.hero_new__video {
+    width: 100%;
+    height: auto; /* Zorgt ervoor dat de video responsief is */
 }
 
 nav {
+    position: absolute; /* Positioneert de nav over de video */
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    z-index: 1; /* Zorgt ervoor dat de nav boven de video komt */
 }
 
 div {
@@ -22,6 +36,7 @@ img {
 ul {
     display: flex;
     list-style-type: none;
+    padding: 5px 125px 5px 125px;
 }
 
 a {
@@ -39,8 +54,9 @@ li {
     color: black;
     background-color: red;
     border-radius: 50%;
-    padding: 2px 15px 2px 15px;
+    padding: 2px 15px;
     font-weight: bold;
 }
+
 
 
