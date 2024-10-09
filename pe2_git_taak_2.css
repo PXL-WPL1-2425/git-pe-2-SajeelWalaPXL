@@ -1,11 +1,39 @@
+body {
+    background-color: dodgerblue;
+}
+
 nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
 div {
     flex: 1;
+    text-align: center;
 }
+
 img {
-    height: 50px;
-    width: 100px
+    width: 150px;
+    height: 100px;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+}
+
+
 
