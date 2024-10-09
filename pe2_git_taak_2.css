@@ -1,8 +1,11 @@
 nav {
     display: flex;
-    margin-left: 800px;
-    margin-right: 800px;
 }
 div {
     flex: 1;
 }
+img {
+    height: 50px;
+    width: 100px
+}
+
